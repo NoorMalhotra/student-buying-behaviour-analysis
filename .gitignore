@@ -1,0 +1,9 @@
+# Data files (download from source rather than committing unless licence/size are checked)
+data/*
+!data/.gitkeep
+
+# Generated outputs can be committed selectively after review
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.DS_Store
